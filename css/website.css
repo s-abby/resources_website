@@ -6,3 +6,17 @@
     text-decoration: none;
     font-size: 100%;
 }
+
+.footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    color: whitesmoke;
+    text-align: center;
+    height: 100px;
+    font-size: 120%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
