@@ -39,7 +39,7 @@ h1 {
     width: 100vw;
     color: whitesmoke;
     text-align: center;
-    height: 100px;
+    height: 50px;
     font-size: 120%;
     display: flex;
     justify-content: space-around;
@@ -66,6 +66,10 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
 }
 
 .a-nav {
@@ -108,16 +112,22 @@ h2 {
 }
 
 .btn {
-    color: whitesmoke;
-    background-color: blue;
+    color: white;
+    background-color: #00cc66;
     border-radius: 5px;
     height: 50px;
     padding: 15px;
+    border: none;
+    transition: 0.4s;
+
 }
 
 .btn:hover {
-    background-color: blueviolet;
+    background-color: #00994c;
     color: whitesmoke;
+    transform: scale(1.1);
+    transition: 0.4s;
+
 }
 
 .block-list {
