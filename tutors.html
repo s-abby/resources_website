@@ -53,20 +53,15 @@
                   <h1>Wanna become a tutor?</h1>
           <section class="name">
             <label for="name">What's your name?</label>
-                  <input type="text" name="name" id="name">
+                  <input type="text" name="name" id="name" required>
           </section>
-          <!--<hr>-->
           
-          <!-- <section class="experience">
-            <label for="amount">How much experience do you have?</label>
-            <input type="number" name="amount" id="amount">
-          </section> -->
           <hr>
           <section class="experience">
             <label for="experience">How much experience do you have?</label>
             <br>
             <span>Beginner</span>
-            <input type="range" name="experience" id="experience" value="3" min="1" max="5">
+            <input type="range" name="experience" id="experience" value="3" min="1" max="5" required>
             <span>Expert</span>
           </section>
           <hr>
@@ -112,7 +107,7 @@
           <section class="parttime">
             <span>Are you interested in part-time or full-time?</span>
             <br>
-            <input type="radio" name="parttime" id="part-time" value="part-time">
+            <input type="radio" name="parttime" id="part-time" value="part-time" required>
             <label for="part-time">Part-time</label>
             <input type="radio" name="parttime" id="full-time" value="full-time">
             <label for="full-time">Full-time</label>
@@ -120,11 +115,12 @@
           <hr>
          
           <section class="students">
-            <label for="students">What level do you prefer to tutor?</label>
-            <select name="students" id="students">
+            <label for="students">What levels do you prefer to tutor?</label>
+            <select name="students" id="students" required>
               <option value="beginner">Beginners</option>
               <option value="intermediate">Intermediate</option>
               <option value="advanced">Advanced</option>
+              <option value="all">Any level</option>
             </select>
           </section>
           
@@ -132,7 +128,7 @@
           <section class="extra-info">
             <label for="extra">Tell us a little about why you want to become a tutor.</label>
             <br>
-            <textarea id="extra" name="extra" rows="5" cols="60"></textarea>
+            <textarea id="extra" name="extra" rows="5" cols="60" required></textarea>
           </section>
           <hr>
   
