@@ -7,6 +7,20 @@
     font-size: 100%;
 }
 
+h1 {
+    font-size: 180%;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
 .footer {
     background-color: black;
     position: fixed;
@@ -26,6 +40,11 @@ a {
     color: whitesmoke;
 }
 
+h2 {
+    padding: 15px;
+    font-size: 140%;
+}
+
 .nav-bar {
     background-color: black;
     color: whitesmoke;
@@ -37,4 +56,45 @@ a {
 .a-nav {
     margin: 10px;
     padding: 10px;
+}
+
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tutorials-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 15px;
+}
+
+.a-nav:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.a-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.btn {
+    color: whitesmoke;
+    background-color: blue;
+    border-radius: 5px;
+    height: 50px;
+    padding: 15px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: whitesmoke;
 }
