@@ -5,8 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="Images/6840478.png">
-  <link rel="stylesheet" href="css/website.css">
+  <link 
+        rel="icon" 
+        type="image/png" 
+        sizes="32x32" 
+        href="Images/6840478.png">
+  <link 
+        rel="stylesheet"
+        href="css/website.css">
+  
+
   <title>Wanna join us?</title>
 </head>
 
@@ -20,30 +28,37 @@
       <a class="a-nav" href="contact.html">Contact</a>
     </nav>
   </header>
-
+  <br>
   <center>
     <div id="form">
       <section id="overlay">
-        <hr>
+        
         <form action="submission.html" method="POST">
           <h1>Wanna become a tutor?</h1>
+          <br>
+        <hr>
+        <br>
           <section class="name">
             <label for="name">What's your name?</label>
             <input type="text" name="name" id="name" required>
           </section>
-
-          <hr>
+          <br>
+          <hr width="750px">
+          <br>
           <section class="experience">
             <label for="experience">How much experience do you have?</label>
+            <br>
             <br>
             <span>Beginner</span>
             <input type="range" name="experience" id="experience" value="3" min="1" max="5" required>
             <span>Expert</span>
           </section>
-          <hr>
-
+          <br>
+          <hr width="750px">
+          <br>
           <section class="languages">
             <span>What programming languanges are you familiar with?</span>
+            <br>
             <br>
             <input type="checkbox" name="languages" id="python" value="python">
             <label for="python">Python</label>
@@ -66,10 +81,13 @@
             <input type="checkbox" name="languages" id="other" value="other">
             <label for="other">Other</label>
           </section>
-          <hr>
+          <br>
+          <hr width="750px">
+          <br>
 
           <section class="availability">
             <span>What's your availability?</span>
+            <br>
             <br>
             <input type="checkbox" name="availability" id="mornings" value="mornings">
             <label for="mornings">Mornings</label>
@@ -78,17 +96,22 @@
             <input type="checkbox" name="availability" id="evenings" value="evenings">
             <label for="evenings">Evenings</label>
           </section>
-          <hr>
-
+          <br>
+          <hr width="750px">
+          <br>
           <section class="parttime">
             <span>Are you interested in part-time or full-time?</span>
+            <br>
             <br>
             <input type="radio" name="parttime" id="part-time" value="part-time" required>
             <label for="part-time">Part-time</label>
             <input type="radio" name="parttime" id="full-time" value="full-time">
             <label for="full-time">Full-time</label>
+
           </section>
-          <hr>
+          <br>
+          <hr width="750px">
+          <br>
 
           <section class="students">
             <label for="students">What levels do you prefer to tutor?</label>
@@ -99,17 +122,23 @@
               <option value="all">Any level</option>
             </select>
           </section>
-
-          <hr>
+          <br>
+          <hr width="750px">
+          <br>
           <section class="extra-info">
             <label for="extra">Tell us a little about why you want to become a tutor.</label>
             <br>
+            <br>
             <textarea id="extra" name="extra" rows="5" cols="60" required></textarea>
           </section>
-          <hr>
 
           <section class="submission">
             <input type="submit" value="Submit">
+            <br>
+            <br>
+
+            <hr>
+            
           </section>
         </form>
       </section>
