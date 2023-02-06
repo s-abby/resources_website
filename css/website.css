@@ -34,8 +34,9 @@ h1 {
 
 .footer {
     background-color: #00cc66;
-    position: fixed;
+    position: sticky;
     bottom: 0;
+    z-index: 100;
     width: 100vw;
     color: whitesmoke;
     text-align: center;
