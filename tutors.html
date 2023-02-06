@@ -7,6 +7,139 @@
     <title>Our tutors and mentors!</title>
 </head>
 <body>
-    
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/Tutors/img1.jpg" alt="Tutor1" style="width:30%">
+            <div class="container">
+              <h2>Tutor1</h2>
+              <p class="title">Web developer</p>
+              <p>blablabla</p>
+              <p>tutor1@webdevelopment.com</p>
+              <p><button class="button">Contact directly</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="images/Tutors/img2.jpg" alt="Tutor2" style="width:30%">
+            <div class="container">
+              <h2>Tutor2</h2>
+              <p class="title">Data Scientist</p>
+              <p>more blablabla</p>
+              <p>tutor2@webdevelopment.com</p>
+              <p><button class="button">Contact directly</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="images/Tutors/img3.jpg" alt="Tutor3" style="width:30%">
+            <div class="container">
+              <h2>Tutor3</h2>
+              <p class="title">Software Engineer</p>
+              <p>More blablabla</p>
+              <p>tutor3@webdevelopment.com</p>
+              <p><button class="button">Contact directly</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="overlay">
+        <hr>
+        <form action="submission.html" method="POST">
+                  <h1>Wanna become a tutor?</h1>
+          <section class="name">
+            <label for="name">What's your name?</label>
+                  <input type="text" name="name" id="name">
+          </section>
+          <!--<hr>-->
+          
+          <!-- <section class="experience">
+            <label for="amount">How much experience do you have?</label>
+            <input type="number" name="amount" id="amount">
+          </section> -->
+          <hr>
+          <section class="experience">
+            <label for="experience">How much experience do you have?</label>
+            <br>
+            <span>Beginner</span>
+            <input type="range" name="experience" id="experience" value="3" min="1" max="5">
+            <span>Expert</span>
+          </section>
+          <hr>
+
+          <section class="languages">
+            <span>What programming languanges are you familiar with?</span>
+            <br>
+            <input type="checkbox" name="languages" id="python" value="python">
+            <label for="python">Python</label>
+
+            <input type="checkbox" name="languages" id="javascript" value="javascript">
+            <label for="javascript">JavaScript</label>
+
+            <input type="checkbox" name="languages" id="html" value="html">
+            <label for="html">HTML&CSS</label>
+            
+            <input type="checkbox" name="languages" id="cplus" value="cplus">
+            <label for="cplus">C++/C#</label>
+
+            <input type="checkbox" name="languages" id="sql" value="sql">
+            <label for="sql">SQL</label>
+
+            <input type="checkbox" name="languages" id="php" value="php">
+            <label for="php">PHP</label>
+
+            <input type="checkbox" name="languages" id="other" value="other">
+            <label for="other">Other</label>
+          </section>
+          <hr>
+          
+          <section class="availability">
+            <span>What's your availability?</span>
+            <br>
+            <input type="checkbox" name="availability" id="mornings" value="mornings">
+            <label for="mornings">Mornings</label>
+            <input type="checkbox" name="availability" id="afternoons" value="afternoons">
+            <label for="afternoons">Afternoons</label>
+            <input type="checkbox" name="availability" id="evenings" value="evenings">
+            <label for="evenings">Evenings</label>
+          </section>
+          <hr>
+          
+          <section class="parttime">
+            <span>Are you interested in part-time or full-time?</span>
+            <br>
+            <input type="radio" name="parttime" id="part-time" value="part-time">
+            <label for="part-time">Part-time</label>
+            <input type="radio" name="parttime" id="full-time" value="full-time">
+            <label for="full-time">Full-time</label>
+          </section>
+          <hr>
+         
+          <section class="students">
+            <label for="students">What level do you prefer to tutor?</label>
+            <select name="students" id="students">
+              <option value="beginner">Beginners</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </section>
+          
+          <hr>
+          <section class="extra-info">
+            <label for="extra">Tell us a little about why you want to become a tutor.</label>
+            <br>
+            <textarea id="extra" name="extra" rows="5" cols="60"></textarea>
+          </section>
+          <hr>
+  
+          <section class="submission">
+            <input type="submit" value="Submit">
+          </section>
+        </form>
+      </section>
 </body>
 </html>
