@@ -88,9 +88,9 @@ header {
     justify-content: space-around;
     align-items: center;
 
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 500;
+    z-index: 500; */
 
     margin-top: 50px;
 
@@ -269,6 +269,8 @@ header {
         justify-content: space-evenly;
         width: 100vw;
     }
+
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
